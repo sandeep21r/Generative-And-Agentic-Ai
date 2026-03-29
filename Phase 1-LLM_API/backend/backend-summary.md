@@ -161,3 +161,4 @@ flowchart TD
     F --> G[Receive streamed chunks]
     G --> H[Send chunks to frontend via SSE]
     H --> I[Send DONE signal]
+```

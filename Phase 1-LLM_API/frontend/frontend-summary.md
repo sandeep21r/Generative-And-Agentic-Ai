@@ -194,3 +194,4 @@ flowchart TD
     H --> I[Update last assistant message]
     I --> J[React rerenders ChatArea]
     J --> K[User sees message streaming]
+```
