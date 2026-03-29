@@ -1,7 +1,6 @@
 
 ## `frontend-summary.md`
 
-```md
 # Frontend Summary — Phase 1
 
 In this phase, the frontend was built using **React**.
