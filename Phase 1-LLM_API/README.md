@@ -34,8 +34,12 @@ phase-01-llm-api/
 ├── backend-summary.md
 ├── frontend-summary.md
 └── llm-chat-app/
+```
 
-```md
+---
+
+## Full Flow Diagram
+
 ```mermaid
 flowchart TD
     A[User types message in ChatInput] --> B[App.jsx handleSendMessage]
@@ -50,5 +54,4 @@ flowchart TD
     J --> K[Chunks appended to assistant message]
     K --> L[React rerenders chat UI]
     L --> M[User sees streaming response]
-
-```md
+```
