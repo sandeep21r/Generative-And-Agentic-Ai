@@ -1,0 +1,74 @@
+.MessageRow {
+  display: flex;
+  width: 100%;
+}
+
+.MessageRow.user {
+  justify-content: flex-end;
+}
+
+.MessageRow.assistant {
+  justify-content: flex-start;
+}
+
+.MessageBubble {
+  max-width: 70%;
+  padding: 12px 16px;
+  border-radius: 16px;
+  line-height: 1.6;
+ 
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.dark .MessageBubble.user {
+  background: #4a4a4a;
+  color: white;
+}
+
+.dark .MessageBubble.assistant {
+  background: #2f2f2f;
+  color: #f0f0f0;
+}
+
+.light .MessageBubble.user {
+  background: #dcdcdc;
+  color: #1a1a1a;
+}
+
+.light .MessageBubble.assistant {
+  background: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #ddd;
+}
+
+/* Markdown styling inside assistant messages */
+.MessageBubble p {
+  margin: 8px 0;
+}
+
+.MessageBubble ul,
+.MessageBubble ol {
+  padding-left: 20px;
+  margin: 8px 0;
+}
+
+.MessageBubble pre {
+  overflow-x: auto;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.MessageBubble code {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.dark .MessageBubble pre {
+  background: #1e1e1e;
+}
+
+.light .MessageBubble pre {
+  background: #f4f4f4;
+}

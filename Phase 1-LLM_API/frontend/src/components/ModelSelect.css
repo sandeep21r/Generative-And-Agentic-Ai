@@ -1,0 +1,101 @@
+.ModelSelectContainer {
+    position: relative;
+    margin-top: 8px;
+}
+
+
+.ModelSelectTrigger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    min-width: 200px;
+}
+
+.ModelSelectArrow {
+    font-size: 10px;
+}
+
+
+.ModelSelectOptions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 4px;
+    padding: 0;
+    list-style: none;
+    border-radius: 8px;
+    min-width: 200px;
+    width: max-content;  
+    /* right: auto;      */
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+.ModelSelectOption {
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.dark .ModelSelectTrigger {
+    background: #363636;
+    color: rgb(202, 202, 202);
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.dark .ModelSelectTrigger:hover {
+    background: #444444;
+}
+
+.dark .ModelSelectOptions {
+    background: #363636;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.dark .ModelSelectOption {
+    color: rgb(202, 202, 202);
+}
+
+.dark .ModelSelectOption:hover {
+    background: #444444;
+}
+
+.dark .ModelSelectOption.selected {
+    background: #505050;
+}
+
+
+.light .ModelSelectTrigger {
+    background: #ffffff;
+    color: #1a1a1a;
+    border: 1px solid #1a1a1a;
+}
+
+.light .ModelSelectTrigger:hover {
+    background: #ececec;
+}
+
+.light .ModelSelectOptions {
+    background: #ffffff;
+    border: 1px solid #1a1a1a;
+}
+
+.light .ModelSelectOption {
+    color: #1a1a1a;
+}
+
+.light .ModelSelectOption:hover {
+    background: #ececec;
+}
+
+.light .ModelSelectOption.selected {
+    background: #d0d0d0;
+}

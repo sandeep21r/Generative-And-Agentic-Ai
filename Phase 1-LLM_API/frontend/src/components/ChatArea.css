@@ -1,0 +1,20 @@
+.ChatAreaContainer {
+  flex: 1;
+  padding: 24px;
+  /* overflow-y: auto; */
+}
+
+.ChatAreaEmpty {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ChatMessages {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}

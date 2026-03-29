@@ -1,0 +1,51 @@
+.ChatInputContainer {
+  display: flex;
+  gap: 12px;
+  padding: 16px 24px 24px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: flex-end;
+}
+
+.ChatInputBox {
+  flex: 1;
+  resize: none;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+  min-height: 48px;
+  max-height: 220px;
+  overflow-y: auto;
+  line-height: 1.5;
+}
+.ChatSendButton {
+  width: 52px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.dark .ChatInputBox {
+  background: #2f2f2f;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark .ChatSendButton {
+  background: #4a4a4a;
+  color: white;
+}
+
+.light .ChatInputBox {
+  background: white;
+  color: #1a1a1a;
+  border: 1px solid #ccc;
+}
+
+.light .ChatSendButton {
+  background: #e0e0e0;
+  color: #1a1a1a;
+}
