@@ -35,7 +35,9 @@ phase-01-llm-api/
 ├── frontend-summary.md
 └── llm-chat-app/
 
+## Full Flow Diagram
 
+```mermaid
 flowchart TD
     A[User types message in ChatInput] --> B[App.jsx handleSendMessage]
     B --> C[User message added to messages state]
