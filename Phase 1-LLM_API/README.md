@@ -1,3 +1,5 @@
+
+```md
 # Phase 1 — LLM API Integration
 
 In this phase, I learned how to build a basic AI chat application using an existing LLM API instead of training my own model.
